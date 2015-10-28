@@ -8,8 +8,6 @@
 
 import UIKit
 
-import NSDate_TimeAgo
-
 class TorrentTableViewCell: UITableViewCell {
 
     @IBOutlet var nameLabel: UILabel!

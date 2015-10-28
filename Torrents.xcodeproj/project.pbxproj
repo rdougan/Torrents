@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		380F367B93F44E6562ED26BB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0AE42FE55B2E8D615DBDDC /* Pods.framework */; };
 		E161A29C1BE1507000DB5F4F /* Array+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2891BE1507000DB5F4F /* Array+Find.swift */; };
-		E161A29D1BE1507000DB5F4F /* Array+Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28A1BE1507000DB5F4F /* Array+Group.swift */; };
 		E161A29E1BE1507000DB5F4F /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28B1BE1507000DB5F4F /* Array+Remove.swift */; };
 		E161A2A01BE1507000DB5F4F /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28D1BE1507000DB5F4F /* Delay.swift */; };
 		E161A2A11BE1507000DB5F4F /* Int32+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */; };
@@ -36,7 +35,6 @@
 		6D0AE42FE55B2E8D615DBDDC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7AD377A6998D2EF3F4E798 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E161A2891BE1507000DB5F4F /* Array+Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Find.swift"; path = "Extensions/Array+Find.swift"; sourceTree = SOURCE_ROOT; };
-		E161A28A1BE1507000DB5F4F /* Array+Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Group.swift"; path = "Extensions/Array+Group.swift"; sourceTree = SOURCE_ROOT; };
 		E161A28B1BE1507000DB5F4F /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Remove.swift"; path = "Extensions/Array+Remove.swift"; sourceTree = SOURCE_ROOT; };
 		E161A28D1BE1507000DB5F4F /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Extensions/Delay.swift; sourceTree = SOURCE_ROOT; };
 		E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int32+Currency.swift"; path = "Extensions/Int32+Currency.swift"; sourceTree = SOURCE_ROOT; };
@@ -111,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				E161A2891BE1507000DB5F4F /* Array+Find.swift */,
-				E161A28A1BE1507000DB5F4F /* Array+Group.swift */,
 				E161A28B1BE1507000DB5F4F /* Array+Remove.swift */,
 				E161A28D1BE1507000DB5F4F /* Delay.swift */,
 				E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */,
@@ -280,7 +277,6 @@
 				E161A29E1BE1507000DB5F4F /* Array+Remove.swift in Sources */,
 				E161A2AA1BE1507000DB5F4F /* String+CharacterAtIndex.swift in Sources */,
 				E161A2AE1BE1507000DB5F4F /* Threading.swift in Sources */,
-				E161A29D1BE1507000DB5F4F /* Array+Group.swift in Sources */,
 				E1996CC91BE03F0E00BF1747 /* TorrentTableViewCell.swift in Sources */,
 				E161A2A01BE1507000DB5F4F /* Delay.swift in Sources */,
 				E161A2A11BE1507000DB5F4F /* Int32+Currency.swift in Sources */,
