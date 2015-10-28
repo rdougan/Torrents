@@ -8,24 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		380F367B93F44E6562ED26BB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0AE42FE55B2E8D615DBDDC /* Pods.framework */; };
+		E161A29C1BE1507000DB5F4F /* Array+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2891BE1507000DB5F4F /* Array+Find.swift */; };
+		E161A29D1BE1507000DB5F4F /* Array+Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28A1BE1507000DB5F4F /* Array+Group.swift */; };
+		E161A29E1BE1507000DB5F4F /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28B1BE1507000DB5F4F /* Array+Remove.swift */; };
+		E161A2A01BE1507000DB5F4F /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28D1BE1507000DB5F4F /* Delay.swift */; };
+		E161A2A11BE1507000DB5F4F /* Int32+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */; };
+		E161A2A41BE1507000DB5F4F /* NSDate+Formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2911BE1507000DB5F4F /* NSDate+Formatted.swift */; };
+		E161A2A51BE1507000DB5F4F /* NSDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2921BE1507000DB5F4F /* NSDecimal.swift */; };
+		E161A2A61BE1507000DB5F4F /* NSIndexSet+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2931BE1507000DB5F4F /* NSIndexSet+Array.swift */; };
+		E161A2AA1BE1507000DB5F4F /* String+CharacterAtIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2971BE1507000DB5F4F /* String+CharacterAtIndex.swift */; };
+		E161A2AB1BE1507000DB5F4F /* String+FixedPointInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2981BE1507000DB5F4F /* String+FixedPointInt.swift */; };
+		E161A2AC1BE1507000DB5F4F /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A2991BE1507000DB5F4F /* String+Regex.swift */; };
+		E161A2AD1BE1507000DB5F4F /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A29A1BE1507000DB5F4F /* String+Trim.swift */; };
+		E161A2AE1BE1507000DB5F4F /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A29B1BE1507000DB5F4F /* Threading.swift */; };
 		E1996CB51BE03DCD00BF1747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CB41BE03DCD00BF1747 /* AppDelegate.swift */; };
 		E1996CBA1BE03DCD00BF1747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1996CB81BE03DCD00BF1747 /* Main.storyboard */; };
 		E1996CBC1BE03DCD00BF1747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1996CBB1BE03DCD00BF1747 /* Assets.xcassets */; };
 		E1996CBF1BE03DCD00BF1747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1996CBD1BE03DCD00BF1747 /* LaunchScreen.storyboard */; };
 		E1996CC71BE03EFB00BF1747 /* TorrentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CC61BE03EFB00BF1747 /* TorrentsViewController.swift */; };
 		E1996CC91BE03F0E00BF1747 /* TorrentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CC81BE03F0E00BF1747 /* TorrentTableViewCell.swift */; };
-		E1996CDE1BE03F7800BF1747 /* Array+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CCB1BE03F7800BF1747 /* Array+Find.swift */; };
-		E1996CE01BE03F7800BF1747 /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CCD1BE03F7800BF1747 /* Array+Remove.swift */; };
-		E1996CE21BE03F7800BF1747 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CCF1BE03F7800BF1747 /* Delay.swift */; };
-		E1996CE31BE03F7800BF1747 /* Int32+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CD01BE03F7800BF1747 /* Int32+Currency.swift */; };
-		E1996CE61BE03F7800BF1747 /* NSDate+Formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CD31BE03F7800BF1747 /* NSDate+Formatted.swift */; };
-		E1996CE71BE03F7800BF1747 /* NSDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CD41BE03F7800BF1747 /* NSDecimal.swift */; };
-		E1996CE81BE03F7800BF1747 /* NSIndexSet+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CD51BE03F7800BF1747 /* NSIndexSet+Array.swift */; };
-		E1996CEC1BE03F7800BF1747 /* String+CharacterAtIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CD91BE03F7800BF1747 /* String+CharacterAtIndex.swift */; };
-		E1996CED1BE03F7800BF1747 /* String+FixedPointInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CDA1BE03F7800BF1747 /* String+FixedPointInt.swift */; };
-		E1996CEE1BE03F7800BF1747 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CDB1BE03F7800BF1747 /* String+Regex.swift */; };
-		E1996CEF1BE03F7800BF1747 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CDC1BE03F7800BF1747 /* String+Trim.swift */; };
-		E1996CF01BE03F7800BF1747 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CDD1BE03F7800BF1747 /* Threading.swift */; };
 		E1996CF21BE044D900BF1747 /* Torrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CF11BE044D900BF1747 /* Torrent.swift */; };
 		E1996CF51BE1211400BF1747 /* PutIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1996CF41BE1211400BF1747 /* PutIO.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,19 @@
 		2D85B0206B8EC46A8A3A91D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6D0AE42FE55B2E8D615DBDDC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7AD377A6998D2EF3F4E798 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E161A2891BE1507000DB5F4F /* Array+Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Find.swift"; path = "Extensions/Array+Find.swift"; sourceTree = SOURCE_ROOT; };
+		E161A28A1BE1507000DB5F4F /* Array+Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Group.swift"; path = "Extensions/Array+Group.swift"; sourceTree = SOURCE_ROOT; };
+		E161A28B1BE1507000DB5F4F /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Remove.swift"; path = "Extensions/Array+Remove.swift"; sourceTree = SOURCE_ROOT; };
+		E161A28D1BE1507000DB5F4F /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Extensions/Delay.swift; sourceTree = SOURCE_ROOT; };
+		E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int32+Currency.swift"; path = "Extensions/Int32+Currency.swift"; sourceTree = SOURCE_ROOT; };
+		E161A2911BE1507000DB5F4F /* NSDate+Formatted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Formatted.swift"; path = "Extensions/NSDate+Formatted.swift"; sourceTree = SOURCE_ROOT; };
+		E161A2921BE1507000DB5F4F /* NSDecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDecimal.swift; path = Extensions/NSDecimal.swift; sourceTree = SOURCE_ROOT; };
+		E161A2931BE1507000DB5F4F /* NSIndexSet+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSIndexSet+Array.swift"; path = "Extensions/NSIndexSet+Array.swift"; sourceTree = SOURCE_ROOT; };
+		E161A2971BE1507000DB5F4F /* String+CharacterAtIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+CharacterAtIndex.swift"; path = "Extensions/String+CharacterAtIndex.swift"; sourceTree = SOURCE_ROOT; };
+		E161A2981BE1507000DB5F4F /* String+FixedPointInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+FixedPointInt.swift"; path = "Extensions/String+FixedPointInt.swift"; sourceTree = SOURCE_ROOT; };
+		E161A2991BE1507000DB5F4F /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Regex.swift"; path = "Extensions/String+Regex.swift"; sourceTree = SOURCE_ROOT; };
+		E161A29A1BE1507000DB5F4F /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Trim.swift"; path = "Extensions/String+Trim.swift"; sourceTree = SOURCE_ROOT; };
+		E161A29B1BE1507000DB5F4F /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Threading.swift; path = Extensions/Threading.swift; sourceTree = SOURCE_ROOT; };
 		E1996CB11BE03DCD00BF1747 /* Torrents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torrents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1996CB41BE03DCD00BF1747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1996CB91BE03DCD00BF1747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,18 +56,6 @@
 		E1996CC01BE03DCD00BF1747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1996CC61BE03EFB00BF1747 /* TorrentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorrentsViewController.swift; sourceTree = "<group>"; };
 		E1996CC81BE03F0E00BF1747 /* TorrentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorrentTableViewCell.swift; sourceTree = "<group>"; };
-		E1996CCB1BE03F7800BF1747 /* Array+Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Find.swift"; sourceTree = "<group>"; };
-		E1996CCD1BE03F7800BF1747 /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Remove.swift"; sourceTree = "<group>"; };
-		E1996CCF1BE03F7800BF1747 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		E1996CD01BE03F7800BF1747 /* Int32+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int32+Currency.swift"; sourceTree = "<group>"; };
-		E1996CD31BE03F7800BF1747 /* NSDate+Formatted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Formatted.swift"; sourceTree = "<group>"; };
-		E1996CD41BE03F7800BF1747 /* NSDecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimal.swift; sourceTree = "<group>"; };
-		E1996CD51BE03F7800BF1747 /* NSIndexSet+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSIndexSet+Array.swift"; sourceTree = "<group>"; };
-		E1996CD91BE03F7800BF1747 /* String+CharacterAtIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CharacterAtIndex.swift"; sourceTree = "<group>"; };
-		E1996CDA1BE03F7800BF1747 /* String+FixedPointInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FixedPointInt.swift"; sourceTree = "<group>"; };
-		E1996CDB1BE03F7800BF1747 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
-		E1996CDC1BE03F7800BF1747 /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
-		E1996CDD1BE03F7800BF1747 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		E1996CF11BE044D900BF1747 /* Torrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Torrent.swift; sourceTree = "<group>"; };
 		E1996CF41BE1211400BF1747 /* PutIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,18 +110,19 @@
 		E1996CCA1BE03F6D00BF1747 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E1996CCB1BE03F7800BF1747 /* Array+Find.swift */,
-				E1996CCD1BE03F7800BF1747 /* Array+Remove.swift */,
-				E1996CCF1BE03F7800BF1747 /* Delay.swift */,
-				E1996CD01BE03F7800BF1747 /* Int32+Currency.swift */,
-				E1996CD31BE03F7800BF1747 /* NSDate+Formatted.swift */,
-				E1996CD41BE03F7800BF1747 /* NSDecimal.swift */,
-				E1996CD51BE03F7800BF1747 /* NSIndexSet+Array.swift */,
-				E1996CD91BE03F7800BF1747 /* String+CharacterAtIndex.swift */,
-				E1996CDA1BE03F7800BF1747 /* String+FixedPointInt.swift */,
-				E1996CDB1BE03F7800BF1747 /* String+Regex.swift */,
-				E1996CDC1BE03F7800BF1747 /* String+Trim.swift */,
-				E1996CDD1BE03F7800BF1747 /* Threading.swift */,
+				E161A2891BE1507000DB5F4F /* Array+Find.swift */,
+				E161A28A1BE1507000DB5F4F /* Array+Group.swift */,
+				E161A28B1BE1507000DB5F4F /* Array+Remove.swift */,
+				E161A28D1BE1507000DB5F4F /* Delay.swift */,
+				E161A28E1BE1507000DB5F4F /* Int32+Currency.swift */,
+				E161A2911BE1507000DB5F4F /* NSDate+Formatted.swift */,
+				E161A2921BE1507000DB5F4F /* NSDecimal.swift */,
+				E161A2931BE1507000DB5F4F /* NSIndexSet+Array.swift */,
+				E161A2971BE1507000DB5F4F /* String+CharacterAtIndex.swift */,
+				E161A2981BE1507000DB5F4F /* String+FixedPointInt.swift */,
+				E161A2991BE1507000DB5F4F /* String+Regex.swift */,
+				E161A29A1BE1507000DB5F4F /* String+Trim.swift */,
+				E161A29B1BE1507000DB5F4F /* Threading.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -263,23 +266,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E161A2A61BE1507000DB5F4F /* NSIndexSet+Array.swift in Sources */,
+				E161A29C1BE1507000DB5F4F /* Array+Find.swift in Sources */,
+				E161A2AC1BE1507000DB5F4F /* String+Regex.swift in Sources */,
 				E1996CC71BE03EFB00BF1747 /* TorrentsViewController.swift in Sources */,
-				E1996CE71BE03F7800BF1747 /* NSDecimal.swift in Sources */,
-				E1996CEF1BE03F7800BF1747 /* String+Trim.swift in Sources */,
-				E1996CE01BE03F7800BF1747 /* Array+Remove.swift in Sources */,
-				E1996CEE1BE03F7800BF1747 /* String+Regex.swift in Sources */,
-				E1996CEC1BE03F7800BF1747 /* String+CharacterAtIndex.swift in Sources */,
 				E1996CF21BE044D900BF1747 /* Torrent.swift in Sources */,
-				E1996CE61BE03F7800BF1747 /* NSDate+Formatted.swift in Sources */,
+				E161A2A41BE1507000DB5F4F /* NSDate+Formatted.swift in Sources */,
+				E161A2AB1BE1507000DB5F4F /* String+FixedPointInt.swift in Sources */,
 				E1996CB51BE03DCD00BF1747 /* AppDelegate.swift in Sources */,
-				E1996CE21BE03F7800BF1747 /* Delay.swift in Sources */,
-				E1996CF01BE03F7800BF1747 /* Threading.swift in Sources */,
-				E1996CE81BE03F7800BF1747 /* NSIndexSet+Array.swift in Sources */,
 				E1996CF51BE1211400BF1747 /* PutIO.swift in Sources */,
-				E1996CE31BE03F7800BF1747 /* Int32+Currency.swift in Sources */,
-				E1996CDE1BE03F7800BF1747 /* Array+Find.swift in Sources */,
+				E161A2A51BE1507000DB5F4F /* NSDecimal.swift in Sources */,
+				E161A2AD1BE1507000DB5F4F /* String+Trim.swift in Sources */,
+				E161A29E1BE1507000DB5F4F /* Array+Remove.swift in Sources */,
+				E161A2AA1BE1507000DB5F4F /* String+CharacterAtIndex.swift in Sources */,
+				E161A2AE1BE1507000DB5F4F /* Threading.swift in Sources */,
+				E161A29D1BE1507000DB5F4F /* Array+Group.swift in Sources */,
 				E1996CC91BE03F0E00BF1747 /* TorrentTableViewCell.swift in Sources */,
-				E1996CED1BE03F7800BF1747 /* String+FixedPointInt.swift in Sources */,
+				E161A2A01BE1507000DB5F4F /* Delay.swift in Sources */,
+				E161A2A11BE1507000DB5F4F /* Int32+Currency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
